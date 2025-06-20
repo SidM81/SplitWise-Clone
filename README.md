@@ -154,6 +154,25 @@ The backend provides the following API endpoints:
 
 ---
 
+## Images
+
+### Home Page  
+![Home Page](./docs/images/HomePage.png)
+
+### Groups  
+![Groups](./docs/images/Groups.png)
+
+### Expenses  
+![Expenses](./docs/images/Expenses.png)
+
+### Balance View 1  
+![Balance 1](./docs/images/Balance_1.png)
+
+### Balance View 2  
+![Balance 2](./docs/images/Balance_2.png)
+
+---
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
