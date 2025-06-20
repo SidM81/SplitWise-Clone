@@ -11,8 +11,9 @@ A full-stack expense splitting application with AI chatbot support built using F
 - [Prerequisites](#prerequisites)  
 - [Setup and Run](#setup-and-run)  
 - [API Documentation](#api-documentation)  
-- [Assumptions](#assumptions)  
-- [Folder Structure](#folder-structure)  
+- [Assumptions](#assumptions-made)  
+- [Folder Structure](#folder-structure)
+- [Images](#images)
 - [License](#license)  
 
 ---
