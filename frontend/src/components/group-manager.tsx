@@ -31,7 +31,7 @@ export function GroupManager() {
   const [selectedUsers, setSelectedUsers] = useState<{ label: string; value: number }[]>([])
   const [groups, setGroups] = useState<Group[]>([])
   const [newGroupName, setNewGroupName] = useState("")
-  const [newGroupUsers, setNewGroupUsers] = useState("")
+  const [, setNewGroupUsers] = useState("")
   const [loading, setLoading] = useState(false)
   const { toast } = useToast()
 
@@ -76,7 +76,7 @@ export function GroupManager() {
   }
 
   const createGroup = async () => {
-    if (!newGroupName.trim() || !newGroupUsers.trim()) {
+    if (!newGroupName.trim() || selectedUsers.length === 0) {
       toast({
         title: "Error",
         description: "Please provide both group name and user IDs",
